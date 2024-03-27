@@ -20,10 +20,6 @@ int removeElements(vector<int> &nums, int val) {
     int i{0};
     int j{(int)nums.size()-1};
     while(i<=j) {
-        // if(i==j && nums[i]==val) {
-        //     count++;
-        //     break;
-        // }
         if(nums[i]==val) {
             if(nums[j]!=val) {
                 nums[i]=nums[j];
